@@ -1,0 +1,71 @@
+
+/* used for logo */
+.container{
+    padding-top: 10px;
+    
+}
+
+.logo{
+    background-color: rgb(160, 249, 249);
+}
+
+/* used for body part in home pages */
+.bdy{
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* used for buttons in home id page */
+.btn_box{
+    padding: 1.5%;
+}
+
+.btn{
+    height: 140%;
+}
+
+/* used for login page form */
+.login_form{
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 2%;
+    padding: 3%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+@media (max-width : 1400px) {
+    .login_form{
+        width: 30%;
+    }
+}
+
+@media (max-width : 1200px) {
+    .login_form{
+        width: 40%;
+        margin-top: 3%;
+    }
+}
+
+@media (max-width : 800px) {
+    .login_form{
+        width: 55%;
+        margin-top: 4%;
+    }
+}
+
+
+@media (max-width : 400px) {
+    .login_form{
+        width: 70%;
+        margin-top: 5%;
+    }
+    
+}
+/* $container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+); */
